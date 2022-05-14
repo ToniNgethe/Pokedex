@@ -1,0 +1,48 @@
+name: pokedex
+description: pokedex app .
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  dio: ^4.0.4
+  flutter_native_splash: ^1.3.2
+  freezed_annotation:
+  flutter_screenutil: ^5.3.1
+  flutter_spinkit: ^5.1.0
+  flutter_bloc: ^7.1.0
+  google_fonts: ^2.3.1
+  floor: ^1.2.0
+  cached_network_image: ^3.2.0
+  badges: ^2.0.2
+  equatable: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  lint: ^1.5.3
+  build_runner: ^2.1.4
+  json_serializable: ^6.0.0
+  dart_code_metrics: ^4.10.1
+  injectable_generator:
+  freezed:
+  floor_generator: ^1.2.0
+  bloc_test:
+  test: ^1.19.5
+  mockito: ^5.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
