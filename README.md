@@ -2,6 +2,8 @@
 
 A beautiful flutter app created using the PokeApi.
 
+<img width="1454" alt="Screenshot 2022-05-14 at 23 54 22" src="https://user-images.githubusercontent.com/23453229/168448298-14071f06-5e5d-4250-89d2-3341ef5afff2.png">
+
 ## Architecture
 The app is built using the ``Bloc archietcure`` and the following libraries:
 - [Google Fonts](https://pub.dev/packages/google_fonts)
